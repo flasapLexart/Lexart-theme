@@ -1,0 +1,40 @@
+{
+    "name": "lexart",
+    "displayName": "Lexart Theme",
+    "description": "Theme for developers",
+    "icon" : "images/logo.jpg",
+    "version": "1.0.4",
+    "publisher" : "Flasap",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lexart theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Lexart theme-color-theme.json"
+            }
+        ]
+    },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "Lexart",
+        "lexart",
+        "flasap",
+        "Lexart Labs",
+        "lexartlabs",
+        "theme for developers"
+    ],
+    "dependencies": {
+        "vsce": "^2.9.2"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/flasapLexart/Lexart-theme"
+    }
+}
